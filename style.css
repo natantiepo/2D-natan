@@ -23,3 +23,9 @@
     font-size: 24px;
 
 }
+.escola-imagem{
+    width: 40%;
+}
+.escola{
+    background-image: linear-gradient(#CA0000, #000000);
+}
