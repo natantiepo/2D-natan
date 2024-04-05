@@ -1,58 +1,84 @@
-*{
-    margin: 0;
-    padding: 0;;
-}
-:root{
-    --cor-fundo: black;
-    --cor-fontes: white;
-}
-.cabecalho{
-    background-color: var(--cor-fundo);
-    color: var(--cor-fontes);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 24px 0;
-}
-.imagem-cabecalho{
-    width: 17,31%;
-}
-.item-lista-cabecalho{
-    display: inline-block;
-    margin: 0 20px;
-    font-size: 24px;
+margin: 0;
+    padding: 0;
 
 }
-.escola-imagem{
-    width: 30%;
+
+:root{
+--amarelo:#4E4F32;
+--midamarelo:#EBEF31;
+--amarelomeio:#C8CB1F;
+--Azul:#282FD7;
+
 }
-.escola{
-    background-image: linear-gradient(#CA0000, #000000);
-    color: var(--cor-fontes);
+.cabecario{
+    background-color:#131315;
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 0;
+    align-items: center;
+    color: #FFFFFF;
+
+
+}
+ .imagem-cabecario{
+width: 100px
+
+ }
+ .itemlista {
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+
+ }
+ .escolaimg{
+    width: 120px;
+    height: 100px;
+
+
+ }
+ .escola{
+    background-image:linear-gradient( #131315, #9FEEF3);
     display: flex;
     align-items: center;
     padding: 24px 0;
+    color:#FFFFFF;
     padding-left: 15%;
-}
-.escola-div-conteudo{
-    width: 35%;
+    
+ }
+.escoola-div-conteudo{
+
+   width: 40%;
+
 }
 .escola-titulo{
-    padding: 24px 0;
+
+   padding: 24px 0;
+
 }
 .estudante-img {
 
-    width: 120px;
- }
- .estudante-icone{
- 
-    width: 24px;
-    padding: 4px 8px;
- }
- .estudante-div{
- 
-    text-align: center;
-    padding: 10px 0;
-    
- }
- 
+   width: 120px;
+}
+.estudante-icone{
+
+   width: 24px;
+   padding: 4px 8px;
+}
+.estudante-titulo{
+
+   background-color: #9FEEF3;
+   text-align: center;
+}
+.estudante-div{
+
+   text-align: center;
+   padding: 10px 0;
+   background-color:#9FEEF3 ;
+   
+}
+.estudante-todos{
+
+   display: grid;
+   grid-template-columns: 25% 25% 25% 25% ;
+}
+
